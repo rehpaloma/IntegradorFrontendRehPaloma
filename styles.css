@@ -1,0 +1,88 @@
+.banner {
+	bottom: 220px;
+	z-index: 2;
+}
+.banner h1 {
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+.banner p {
+	font-size: 16px;
+	line-height: 2;
+}
+.banner-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.banner {
+		bottom: 370px;
+	}
+	.banner p {
+		width: 100%;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.banner {
+		bottom: 25px;
+	}
+	.banner h1 {
+		font-size: 20px;
+	}
+	.banner a {
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	.banner p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 13px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
+small{
+    font-size: 0.4em;
+    font-weight: normal;
+}
+.logo{
+    font-size: 1.2em;
+}
+.btn-js,
+.btn-r,
+.btn-ada{
+    padding: 0 5px;
+    font-size: small;
+}
+.info-place{
+    font-size: 14px;
+}
+.navbar{
+    background: rgb(33,37,41);
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgb(33, 52, 71) 35%, rgb(17, 44, 73) 100%);
+}
+.btn-submit{
+    background-color: rgb(141,182,0);
+    border: none;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+}
