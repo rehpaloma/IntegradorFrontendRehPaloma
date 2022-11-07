@@ -86,3 +86,51 @@ small{
 	font-size: 18px;
 	line-height: 0.3;
 }
+.seccion-tickets{
+    padding: 2rem;
+}
+.seccion-tickets .fila-tarjetas{
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+.seccion-tickets .fila-tarjetas .tarjeta{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 8px;
+}
+.seccion-tickets .fila-tarjetas .estudiante{
+    border: 1px solid #0487f3;
+}
+.seccion-tickets .fila-tarjetas .trainee{
+    border: 1px solid #048872;
+}
+.seccion-tickets .fila-tarjetas .junior{
+    border: 1px solid #ffd904;
+}
+.seccion-tickets .fila-formulario{
+    max-width: 800px;
+    margin: auto;
+}
+.seccion-tickets .fila-formulario .form-control{
+    margin: .5rem 0;
+}
+.seccion-tickets .fila-formulario .total p{
+    background-color: #0487f38e;
+    padding: .5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #00559b;
+    margin: 1.5rem 0;
+}
+.seccion-tickets form button{
+background-color: rgb(94, 176, 85);
+color: white;
+border: 0;
+display: block;
+width: 100%;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+border-radius: 5px;
+
+}
